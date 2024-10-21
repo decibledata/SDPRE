@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Objective7Lab5 {
   public static void main(String[] args) {
-    java.util.Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     int selection;
 
     while (true) {
@@ -9,6 +11,8 @@ public class Objective7Lab5 {
       System.out.println("2: List My favorite foods");
       System.out.println("3: Exit");
       System.out.println();
+
+      selection = scanner.nextInt();
 
      
       if(selection == 1)
